@@ -6,6 +6,13 @@ export const environment = {
   production: false
 };
 
+export const accountCotohaInfo = {
+  baseUrl: 'https://api.ce-cotoha.com/api/dev/',
+  clientId: 'uP4QGUAjOnFYbq81gGj0ofvMZOJ7sLrW',
+  clientSecret: 'jnwnYWoC4rIyen4R',
+  accessTokenUrl: 'https://api.ce-cotoha.com/v1/oauth/accesstokens',
+};
+
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
